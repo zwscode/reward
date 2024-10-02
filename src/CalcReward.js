@@ -2,9 +2,6 @@ import { useEffect, useState, useRef } from "react";
 import "./styles.css";
 import { TRANSACTION_DATA } from "./transactions.js";
 
-// number of entries to generate in dataset
-const DATASET_NUM = 10;
-
 // only consider data from last 3 months
 const VALID_MONTHS = new Set(["July", "August", "September"]);
 
